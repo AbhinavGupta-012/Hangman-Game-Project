@@ -141,4 +141,8 @@ for u in range(len(words) + 6):
     if '_' not in o:
         print("\nCongratulations! You Have Completed the Game")
         break
-    
+
+# Following Issues need to be fixed
+# 1) Allows multiple character input
+# 2) Allows numbers and symbols to be inputted
+# 3) Not an issue, more of a suggestion, try to go for a gui approach
