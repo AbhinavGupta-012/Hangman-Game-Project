@@ -105,22 +105,29 @@ for i in o:
 wrong_words = []
 
 #playing the real game 
-for u in range(len(words) + 6):
+for u in range(100):
     s = input("\nGuess A Word: ")
-    for t in s:
-        if s in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']:
-            right_leg()
-            print('You Are Terminated')
-            break
-    if s in words:
-        o.pop(words.index(s))
-        o.insert(words.index(s), s)
+    if (len(s) > 1 or len(s) < 1):
+        print("Input should contain only 1 character!")
+        continue
+    elif (len(s) == 0):
+        print("Input field cannot be left empty!!")
+        continue
+    elif (s in '!@#$%^&*()~`<>/?;:\'"[]|\\=+-_'):
+        print("Input cannot be a symbol or a special character!!")
+        continue
+    elif (s in '0123456789'):
+        print("Input cannot be a number!")
+        continue
+    h = s.lower()
+    if s.lower() in words:
+        o.pop(words.index(h))
+        o.insert(words.index(h), h)
     else:
-        wrong_words.append(s)
+        wrong_words.append(h)   
         hang_man = hang_man + 1
         if(hang_man == 1):
             face()
-            wrong_words.append(s)
         elif(hang_man == 2):
             neck()
         elif(hang_man == 3):
@@ -141,8 +148,3 @@ for u in range(len(words) + 6):
     if '_' not in o:
         print("\nCongratulations! You Have Completed the Game")
         break
-
-# Following Issues need to be fixed
-# 1) Allows multiple character input
-# 2) Allows numbers and symbols to be inputted
-# 3) Not an issue, more of a suggestion, try to go for a gui approach
