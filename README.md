@@ -1,4 +1,4 @@
 ![Banner](Bowl_Of_Sins.png)
-# Hangman-Game-Project
+# Bowl Of Sins
 
 ## Project Work Started on 14th March, 2024, 09:45 AM IST
