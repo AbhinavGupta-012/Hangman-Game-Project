@@ -16,8 +16,9 @@ In this hangman influenced game, the goal is simple: To guess the word by guessi
 If however you were unsuccessfull in guessing the character, the bowl of sins (or paap ka gada) will start to fill up with your sins and after failing 7 times your soul would become the property of satan and you would be bound to him for all of eternity.
 
 **Creators**
-1. Abhinav Gupta - Leader, Tester and Part Time Developer
-2. Krishan Kumar Sah - Developer and Testere
+1. Abhinav Gupta - Manager and Part Time Developer
+2. Krishan Kumar Sah - Developer
+3. Adish Jain - Tester
    
 **Instructions**
 You will need the Pillow library.
