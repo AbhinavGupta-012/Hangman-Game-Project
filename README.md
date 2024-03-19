@@ -26,5 +26,4 @@ Use this in your terminal to install it.
 ``` pip install Pillow ```
 
 
-**__Enjoy The Game (Just don't lose your soul in the process)__**
-## Project Work Started on 14th March, 2024, 09:45 AM IST
+**_Enjoy The Game (Just don't lose your soul in the process)_**
