@@ -19,5 +19,11 @@ If however you were unsuccessfull in guessing the character, the bowl of sins (o
 1. Abhinav Gupta - Leader, Tester and Part Time Developer
 2. Krishan Kumar Sah - Developer and Testere
    
+**Instructions**
+You will need the Pillow library.
+Use this in your terminal to install it.
+``` pip install Pillow ```
 
+
+**__Enjoy The Game (Just don't lose your soul in the process)__**
 ## Project Work Started on 14th March, 2024, 09:45 AM IST
