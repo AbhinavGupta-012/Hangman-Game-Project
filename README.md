@@ -1,4 +1,4 @@
-![Banner](Bowl_Of_Sins.png)
+![Banner](/Images/Bowl_Of_Sins.png)
 ```
                             )         (                   
    (                (    ( /(  (      )\ )                
