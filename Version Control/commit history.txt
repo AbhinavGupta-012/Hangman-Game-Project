@@ -1,0 +1,150 @@
+commit 4fb192db07d6609986e6a82d9ef535ab4be59d47 (HEAD -> main, origin/main, origin/HEAD)
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 10:47:17 2024 +0530
+
+    Updated Bowl-Of-Sins.py
+
+commit 55a2f05d87b12b42d830e9aafaabc1427b849828
+Merge: ce8b1be 51dc32e
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 10:46:04 2024 +0530
+
+    Merge branch 'main' of https://github.com/AbhinavGupta-012/Bowl-Of-Sins
+
+commit ce8b1be043a9393a35cdccd45ca07082a3f845ae
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 10:45:36 2024 +0530
+
+    Created Images Folder
+
+commit 51dc32e2da20200c403c524b01cd4be12cb20683
+Author: Abhinav Gupta <147647694+AbhinavGupta-012@users.noreply.github.com>
+Date:   Tue Mar 19 10:36:22 2024 +0530
+
+    Update README.md
+
+commit 54ecf8c8270f774269b31945bea25c52cbceca3b
+Author: Krishan Kumar Sah <149761184+krishhn13@users.noreply.github.com>
+Date:   Tue Mar 19 10:32:12 2024 +0530
+
+    Update README.md
+
+commit 248f4d91e23f5b69f95f03fe456e708c8ce356cc
+Author: Abhinav Gupta <147647694+AbhinavGupta-012@users.noreply.github.com>
+Date:   Tue Mar 19 08:33:58 2024 +0530
+
+    Update README.md
+
+commit ea747b91d887c4831e82458e26604f03ef77ef58
+Author: Abhinav Gupta <147647694+AbhinavGupta-012@users.noreply.github.com>
+Date:   Tue Mar 19 08:29:02 2024 +0530
+
+    Update README.md
+
+commit 0f738ebf70a64cdb6da314cab6f28ae39355af12
+Author: Abhinav Gupta <147647694+AbhinavGupta-012@users.noreply.github.com>
+Date:   Tue Mar 19 08:23:26 2024 +0530
+
+    Update README.md
+
+commit 90cf10b1d79e7837861e60cc9519b7c7fc1d6aca
+Author: Abhinav Gupta <147647694+AbhinavGupta-012@users.noreply.github.com>
+Date:   Mon Mar 18 20:37:35 2024 +0530
+
+    Update README.md
+
+commit 8e56f2d9bcc17d099a3847dbbce2fee4e18cbdeb
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Mon Mar 18 20:29:53 2024 +0530
+
+    Commited the Final Version of the Game
+
+commit f78396054b79d242b5574e21da6460771a7040ff
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Mon Mar 18 20:24:47 2024 +0530
+
+    Fixed the bugs in the gui
+
+commit 2490a39c396021058218e65a0451ec5f2117f494
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sun Mar 17 20:22:35 2024 +0530
+
+    Upgraded to Gui Version
+
+commit 321b4e66c6fe44b7a33a132e4b7e5cf6eafbcf42
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sun Mar 17 14:03:52 2024 +0530
+
+    Updated Banner
+
+commit 9505b5658dc340d9f56a2b38b613aaf03ee89402
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sun Mar 17 13:50:43 2024 +0530
+
+    Added Banner for README.md
+
+commit 8c30da5738a88488664215e46d054b131f02ac22
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sun Mar 17 13:49:52 2024 +0530
+
+    Updated README.md
+
+commit 1eeadc58ec5c1c8ed5768dc65b468ea51726fd4d
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sun Mar 17 13:38:54 2024 +0530
+
+    Updated README.md
+
+commit 4e8bb354e3153c983518817aefc63bc22fa73819
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sun Mar 17 13:37:22 2024 +0530
+
+    Updated README.md
+
+commit ea53d06e54fdf443f2e3e4c7cf27b2eafc0d1768
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sat Mar 16 23:10:42 2024 +0530
+
+    Fixed minor inconsistencies. Version 1 is a GO
+
+commit 6461eb22f668c97e1278b527747962ebbe923e79
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sat Mar 16 22:48:43 2024 +0530
+
+    Fixed all the issues
+
+commit 4e91e12932a40e2a8abbdada2409ae580aafebf9
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sat Mar 16 22:13:13 2024 +0530
+
+    Added some issues which need to be addressed
+
+commit 2e5f95d14930e76ba6366ef452848dab45fe2f01
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Sat Mar 16 22:07:59 2024 +0530
+
+    Made the code more readable and fixed visual bugs
+
+commit 6d90b33437c2ec6c7af078395e758b1637ed2b41
+Author: Krishan Kumar Sah <149761184+krishhn13@users.noreply.github.com>
+Date:   Sat Mar 16 19:24:25 2024 +0530
+
+    Created hangman.py
+
+commit bea8744bfc000c67f5b9af96b5ff46dde2e6cc03
+Author: Abhinav Gupta <147647694+AbhinavGupta-012@users.noreply.github.com>
+Date:   Thu Mar 14 22:19:21 2024 +0530
+
+    Update README.md
+
+commit c294061b0a9d33bdb6de54d0797794adc497669a
+Author: Abhinav Gupta <147647694+AbhinavGupta-012@users.noreply.github.com>
+Date:   Thu Mar 14 09:45:50 2024 +0530
+
+    Update README.md
+
+commit 3ebdd5e914cfca085b1e8b63f5e7aed7446dc4e2
+Author: Abhinav Gupta <147647694+AbhinavGupta-012@users.noreply.github.com>
+Date:   Thu Mar 14 09:39:47 2024 +0530
+
+    Initial commit
