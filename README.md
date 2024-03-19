@@ -21,8 +21,10 @@ If however you were unsuccessfull in guessing the character, the bowl of sins (o
 3. Adish Jain - Tester
    
 **Instructions**
+
 You will need the Pillow library.
 Use this in your terminal to install it.
+
 ``` pip install Pillow ```
 
 
