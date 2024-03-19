@@ -75,7 +75,7 @@ window.geometry("500x500")
 window.configure(bg="#451b7b")
 
 # Load the background image of the bowl
-image_path = "C:/Users/Abhinav Gupta/OneDrive/Desktop/Stuff/BowlOfSins.png"
+image_path = ".ggit /Images/BowlOfSins.png"
 original_image = Image.open(image_path)
 
 # Resize the image
