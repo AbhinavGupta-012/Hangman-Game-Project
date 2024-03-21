@@ -18,7 +18,8 @@ However, if you were unsuccessfull, the bowl of sins (or paap ka ghada) starts t
 Here we have three versions of the game :
 1. The CLI version (Command Line Interface).
 2. The GUI Version of the Hangman to increase the user-friendly experience.
-3. The Last Version- the "THE MIGHTY BOWL OF SINS", where if you guess the wrong letter, your _paap ka ghada_ will start filling up and after 7 wrong chances, your soul will be trapped. 
+3. The Last Version- the "THE MIGHTY BOWL OF SINS", where if you guess the wrong letter, your _paap ka ghada_ will start filling up and after 7 wrong chances, your soul will be trapped.
+   
 **Creators**
 1. Abhinav Gupta - Manager and Part Time Developer
 2. Krishan Kumar Sah - Developer
