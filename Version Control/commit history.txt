@@ -1,4 +1,73 @@
-commit 4fb192db07d6609986e6a82d9ef535ab4be59d47 (HEAD -> main, origin/main, origin/HEAD)
+commit b46a1048be493c57e7e8cd251b3b3a23f8505fa8 (HEAD -> main)
+Merge: 8731e63 c203bc7
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Thu Mar 21 08:59:11 2024 +0530
+
+    Merge branch 'main' of https://github.com/AbhinavGupta-012/Bowl-Of-Sins
+
+commit 8731e636949657395f03890958cf25789c99d497
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Thu Mar 21 08:59:01 2024 +0530
+
+    Improved UI
+
+commit c203bc70089193ad808acf69d2e96b847c815706 (origin/main, origin/HEAD)
+Author: Abhinav Gupta <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 17:54:06 2024 +0530
+
+    Update README.md
+
+commit d7073bdc7a5072b56c14c10fe38fe3ee8fd2a1d0
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 17:53:18 2024 +0530
+
+    Improved the UI and added Instructions for the game
+
+commit 010ddee3c55eb9d0f765ed4c46ede0a98affc5ef
+Merge: d1d4924 9d32e5d
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 11:09:33 2024 +0530
+
+    Merge branch 'main' of https://github.com/AbhinavGupta-012/Bowl-Of-Sins
+
+commit d1d4924b60333ca607464403fe28dc28eccc14d7
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 11:09:26 2024 +0530
+
+    Updated Bowl-Of-Sins.py
+
+commit 9d32e5daae9458ea8e03e4f32152b3b8efb9e4ef
+Author: Abhinav Gupta <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 11:04:34 2024 +0530
+
+    Update README.md
+
+commit 5817401a14395bf8e8b66145bca6ce5912345992
+Merge: ec42281 c160f31
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 11:03:54 2024 +0530
+
+    Merge branch 'main' of https://github.com/AbhinavGupta-012/Bowl-Of-Sins
+
+commit ec422816e74d11155479bd5cec0cd1a305e011d4
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 11:03:45 2024 +0530
+
+    Updated README.md
+
+commit c160f31dc482b9234308eb481e0bb10759639eb5
+Author: Abhinav Gupta <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 11:02:59 2024 +0530
+
+    Update README.md
+
+commit cb33aca21a1d26b86a5c62bca42f8ed7c66d8090
+Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
+Date:   Tue Mar 19 11:00:55 2024 +0530
+
+    Added Commit History
+
+commit 4fb192db07d6609986e6a82d9ef535ab4be59d47
 Author: AbhinavGupta-012 <abhinavgupta1702@gmail.com>
 Date:   Tue Mar 19 10:47:17 2024 +0530
 
