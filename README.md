@@ -11,10 +11,14 @@
 ```                                                          
 
 Welcome to the Bowl Of Sins aka _Paap ka Ghada_.
-In this hangman influenced game, the goal is simple: To guess the word by guessing a character of the word one at a time.
+In this hangman influenced game, the goal is simple, to guess the word by guessing the characters of a word one at a time.
 
-If however you were unsuccessfull in guessing the character, the bowl of sins (or paap ka ghada) will start to fill up with your sins and after failing 7 times your soul would become the property of satan and you would be bound to him for all of eternity.
+However, if you were unsuccessfull, the bowl of sins (or paap ka ghada) starts to fill up with your sins and after failing 7 times your soul becomes the property of Satan and you would be bound to him for all of the eternity.
 
+Here we have three versions of the game :
+1. The CLI version (Command Line Interface).
+2. The GUI Version of the Hangman to increase the user-friendly experience.
+3. The Last Version- the "THE MIGHTY BOWL OF SINS", where if you guess the wrong letter, your _paap ka ghada_ will start filling up and after 7 wrong chances, your soul will be trapped. 
 **Creators**
 1. Abhinav Gupta - Manager and Part Time Developer
 2. Krishan Kumar Sah - Developer
