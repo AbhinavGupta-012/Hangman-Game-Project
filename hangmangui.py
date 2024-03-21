@@ -89,11 +89,11 @@ def guess_letter(event=None):
         draw_hangman(parts[wrong_letters.index(guessed_letter)])
     if len(wrong_letters) == len(parts):
         display_label.config(text="You lost! The word was: " + word)
-        entry.config(state="disabled", disabledbackground="grey", disabledforeground="black")
+        entry.config(state="disabled", disabledbackground="brown", disabledforeground="black")
     if "_" not in displayed_word:
         display_label.config(text="Congratulations! You have Guessed the word!")
         display_label.place(x=40, y=310)
-        entry.config(state="disabled", disabledbackground="grey", disabledforeground="black")
+        entry.config(state="disabled", disabledbackground="brown", disabledforeground="black")
 
 
 def delete_button(button):
