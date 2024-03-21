@@ -4,12 +4,12 @@ import tkinter as tk
 window = tk.Tk()
 window.title("Hangman Game")
 window.geometry("400x400")
-window.configure(bg="grey")
+window.configure(bg="#ffc5a1")
 
-intro = tk.Label(window, text="The Hang Man", font=("Helvetica", 18, "bold"), bg="grey", fg="#000000")
+intro = tk.Label(window, text="The Hang Man", font=("Helvetica", 18, "bold"), bg="#ffc5a1", fg="#000000")
 intro.place(x=110, y=10)
 
-canvas = tk.Canvas(window, width=200, height=200, bg="grey", borderwidth=0, highlightthickness=0)
+canvas = tk.Canvas(window, width=200, height=200, bg="#ffc5a1", borderwidth=0, highlightthickness=0)
 canvas.place(x=88, y=88)
 
 
@@ -29,21 +29,21 @@ def draw_hangman(part):
 
 
 def structure():
-    corner = tk.Label(window, text="+", font=("Helvetica", 25, "bold"), bg="grey", fg="brown")
+    corner = tk.Label(window, text="+", font=("Helvetica", 25, "bold"), bg="#ffc5a1", fg="brown")
     corner.place(x=150, y=46)
-    centre = tk.Label(window, text="---------", font=("Helvetica", 27, "bold"), bg="grey", fg="brown")
+    centre = tk.Label(window, text="---------", font=("Helvetica", 27, "bold"), bg="#ffc5a1", fg="brown")
     centre.place(x=170, y=41)
-    corner_end = tk.Label(window, text="+", font=("Helvetica", 25, "bold"), bg="grey", fg="brown")
+    corner_end = tk.Label(window, text="+", font=("Helvetica", 25, "bold"), bg="#ffc5a1", fg="brown")
     corner_end.place(x=280, y=46)
-    stand1 = tk.Label(window, text="|", font=("Helvetica", 25, "bold"), bg="grey", fg="brown")
+    stand1 = tk.Label(window, text="|", font=("Helvetica", 25, "bold"), bg="#ffc5a1", fg="brown")
     stand1.place(x=285, y=77)
-    stand2 = tk.Label(window, text="|", font=("Helvetica", 25, "bold"), bg="grey", fg="brown")
+    stand2 = tk.Label(window, text="|", font=("Helvetica", 25, "bold"), bg="#ffc5a1", fg="brown")
     stand2.place(x=285, y=117)
-    stand3 = tk.Label(window, text="|", font=("Helvetica", 25, "bold"), bg="grey", fg="brown")
+    stand3 = tk.Label(window, text="|", font=("Helvetica", 25, "bold"), bg="#ffc5a1", fg="brown")
     stand3.place(x=285, y=157)
-    stand4 = tk.Label(window, text="|", font=("Helvetica", 25, "bold"), bg="grey", fg="brown")
+    stand4 = tk.Label(window, text="|", font=("Helvetica", 25, "bold"), bg="#ffc5a1", fg="brown")
     stand4.place(x=285, y=197)
-    base = tk.Label(window, text="======", font=("Helvetica", 25, "bold"), bg="grey", fg="brown")
+    base = tk.Label(window, text="======", font=("Helvetica", 25, "bold"), bg="#ffc5a1", fg="brown")
     base.place(x=235, y=235)
 
 
@@ -65,8 +65,17 @@ def display_word(word, guessed_letters):
 def guess_letter(event=None):
     display_label.config(text="")
     guessed_letter = entry.get()
-    if len(guessed_letter) != 1 or not guessed_letter.isalpha():
-        display_label.config(text="Invalid input! Please enter a single letter.")
+    if len(guessed_letter) > 1 and guessed_letter.isalpha():
+        display_label.config(text="Invalid Input! Please enter a single letter.")
+        return
+    elif guessed_letter.isdigit() or (guessed_letter.isdigit() and len(guessed_letter) > 1):
+        display_label.config(text="Invalid Input! You cannot enter a number.")
+        return
+    elif guessed_letter == "":
+        display_label.config(text="Input cannot be left empty!")
+        return
+    elif guessed_letter in "!@#$%^&*()<>/?;:\'\"[]\\" or len(guessed_letter) > 1:
+        display_label.config(text="Invalid Input! You cannot enter a symbol.")
         return
     guessed_letter = guessed_letter.lower()
     if guessed_letter in guessed_letters:
@@ -97,19 +106,19 @@ guessed_letters = set()
 wrong_letters = []
 parts = ["head", "torso", "left_arm", "right_arm", "left_leg", "right_leg"]
 
-word_label = tk.Label(window, text=display_word(word, guessed_letters), font=("Arial", 20), bg="grey")
+word_label = tk.Label(window, text=display_word(word, guessed_letters), font=("Arial", 20), bg="#ffc5a1")
 word_label.place(x=100, y=270)
 
-entry = tk.Entry(window, font=("Arial", 12), bg="grey")
+entry = tk.Entry(window, font=("Arial", 12), bg="#ffc5a1")
 entry.place(x=100, y=340)
 
-display_button = tk.Button(window, text="Check", command=guess_letter, bg="grey", fg="brown")
+display_button = tk.Button(window, text="Check", command=guess_letter, bg="#ffc5a1", fg="brown")
 display_button.place(x=250, y=339)
 
-display_label = tk.Label(window, text="", font=("Arial", 12), bg="grey")
+display_label = tk.Label(window, text="", font=("Arial", 12), bg="#ffc5a1")
 display_label.place(x=100, y=310)
 
-start = tk.Button(window, text="PLAY", font=("Arial", 15, "bold"), command=lambda: delete_button(start), bg="grey", fg="white", height=13, width=29)
+start = tk.Button(window, text="PLAY", font=("Arial", 15, "bold"), command=lambda: delete_button(start), bg="#ffc5a1", fg="white", height=13, width=29)
 start.place(x=20, y=50)
 
 window.bind("<Return>", guess_letter)
