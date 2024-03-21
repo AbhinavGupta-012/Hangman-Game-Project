@@ -49,7 +49,6 @@ def display_word(word, guessed_letters):
 def guess_letter(event=None):
     global coins_count
     display_label.config(text="")
-    display_label.place(x=180, y=200)
     guessed_letter = entry.get()  # Get the guessed letter
     if len(guessed_letter) > 1 and guessed_letter.isalpha():
         display_label.config(text="Invalid Input! Please enter a single letter.")
@@ -59,7 +58,6 @@ def guess_letter(event=None):
         return
     elif guessed_letter == "":
         display_label.config(text="Input cannot be left empty!")
-        display_label.place(x=250, y=200)
         return
     elif guessed_letter in "!@#$%^&*()<>/?;:\'\"[]\\" or len(guessed_letter) > 1:
         display_label.config(text="Invalid Input! You cannot enter a symbol.")
