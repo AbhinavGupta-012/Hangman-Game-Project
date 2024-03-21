@@ -32,5 +32,10 @@ Use this in your terminal to install it.
 
 ``` pip install Pillow ```
 
+**FUTUTRE SCOPES**
+1. To add the reset button in the 3rd version.
+2. To increase the database of the words to be guessed.
+3. To automatically clear the input after a user entry.
+
 
 **_Enjoy The Game (Just don't lose your soul in the process)_**
