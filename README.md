@@ -23,7 +23,6 @@ Here we have three versions of the game :
 **Creators**
 1. Abhinav Gupta - Manager and Part Time Developer
 2. Krishan Kumar Sah - Developer
-3. Adish Jain - Tester
    
 **Instructions**
 
