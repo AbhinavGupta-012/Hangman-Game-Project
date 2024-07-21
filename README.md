@@ -21,8 +21,8 @@ Here we have three versions of the game :
 3. The Last Version- the "THE MIGHTY BOWL OF SINS", where if you guess the wrong letter, your _paap ka ghada_ will start filling up and after 7 wrong chances, your soul will be trapped.
    
 **Creators**
-1. Abhinav Gupta - Manager and Part Time Developer
-2. Krishan Kumar Sah - Developer
+1. Abhinav Gupta - GUI
+2. Krishan Kumar Sah - CLI
    
 **Instructions**
 
